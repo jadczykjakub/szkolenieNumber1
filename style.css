@@ -4,27 +4,45 @@ body{
     margin: 10px 20px;
 }
 
-.box{
-    height: calc(100vh - 22px);
-    border: 1px solid red;
+.title{
+  color: red;
+}
+
+/* kolejność odczytu */
+
+.title2{
+  color: red;
+}
+
+.title2{
+  color: pink;
+}
+
+.box .title2{
+  color: black;
+}
+
+body .box .title2{
+  color: hotpink;
+}
+
+.container .box .title2{
+  color: blue;
+}
+
+body .container .box .title2{
+  color: purple;
 }
 
 
+.title2{
+  color: brown  !important;
+}
 
-@media screen and (max-width: 600px) {
-    body {
-      background-color: #fff;
-    }
-  }
-  
-  @media screen and (min-width: 601px) and (max-width: 1200px) {
-    body {
-      background-color: #000;
-    }
-  }
-  
-  @media screen and (min-width: 1201px) {
-    body {
-      background-color: #808080;
-    }
-  }
+.box .title2{
+  color: black !important;
+}
+
+body .box .title2{
+  color: yellow !important;
+}
