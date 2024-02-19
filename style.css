@@ -5,6 +5,7 @@ body{
   display: grid;
   justify-items: center;
   font-family: 'roboto';
+  gap: 20px;
 }
 
 .content{
@@ -12,4 +13,8 @@ body{
   height: 400px;
   background-color: #fff;
   border: 3px dashed gray;
+}
+
+h2{
+  margin-top: 100px;
 }
