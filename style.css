@@ -2,10 +2,11 @@ body{
   background-color: #e391e3;
 }
 .container{
-  display: grid;
-  justify-items: center;
   font-family: 'roboto';
+  display: grid;
   gap: 20px;
+  justify-items: center;
+
 }
 
 .content{
@@ -18,3 +19,86 @@ body{
 h2{
   margin-top: 100px;
 }
+
+/* <====================Grid layout======================> */
+
+/* .layout-grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+      "header header header"
+      "leftbar main main"
+      "leftbar main main"
+      "footer footer footer";
+}
+
+.header{
+  grid-area: header;
+  background-color: red;
+}
+
+.leftbar{
+  grid-area: leftbar;
+  background-color: yellow;
+}
+
+.main{
+  grid-area: main;
+  background-color: orange;
+}
+
+.footer{
+  grid-area: footer;
+  background-color: aqua;
+} */
+
+/* <====================Grid layout bar======================> */
+
+/* .layout-bar-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "navbar navbar navbar"
+  ". content-bar ."
+  "bar bar bar"
+  ". content-bar2 ."
+  "ornament-bar . ."
+  ". ornament-right ornament-right";
+}
+
+.navbar{
+  grid-area: navbar;
+  background-color: red;
+}
+
+.content-bar{
+  grid-area: content-bar;
+  background-color: yellow;
+}
+
+.content-bar2{
+  grid-area: content-bar2;
+  background-color: yellow;
+
+}
+
+.bar{
+  grid-area: bar;
+  background-color: purple;
+
+}
+
+.ornament-bar{
+  grid-area: ornament-bar;
+  background-color: purple;
+
+}
+
+.ornament-right{
+  grid-area: ornament-right;
+  background-color: purple;
+
+} */
